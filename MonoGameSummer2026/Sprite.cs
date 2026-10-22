@@ -15,12 +15,14 @@ public class Sprite : IDrawable, IUpdatable
     public SpriteEffects _effects { get; set; } = SpriteEffects.None;
     
     public Rectangle _sourceRectangle { get; set; }
+    
+    protected Spritesheet _spritesheet;
 
     public Sprite(string SpriteName)
     {
-        Spritesheet ss = SpriteManager.GetSprite(SpriteName);
-        _sourceRectangle = ss[0, 0];
-        _texture = ss.texture;
+        _spritesheet = SpriteManager.GetSprite(SpriteName);
+        _sourceRectangle = _spritesheet[0, 0];
+        _texture = _spritesheet.texture;
     }
 
     public void Draw(SpriteBatch spriteBatch)

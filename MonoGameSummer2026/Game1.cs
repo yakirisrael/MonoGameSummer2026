@@ -49,7 +49,7 @@ public class Game1 : Game
 
         base.Initialize();
         
-        _player = new Player();
+      
     }
 
     protected override void LoadContent()
@@ -64,6 +64,13 @@ public class Game1 : Game
         SpriteManager.AddSprite("Duck1", "Images/Birds/Bird2 Duck_1", 4, 4);
 
         _mouseText._font = _fontOswald;
+        
+        Init();
+    }
+
+    void Init()
+    {
+        _player = new Player();
     }
 
     protected override void Update(GameTime gameTime)

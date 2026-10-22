@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework.Input;
 
 namespace MonoGameSummer2026;
 
-public class Player : Sprite
+public class Player : Animation
 {
     public float speed = 0.5f;
     
@@ -19,6 +19,8 @@ public class Player : Sprite
 
         originalScale = _transform._scale;
         
+        _effects = SpriteEffects.FlipHorizontally;
+        
 
     }
 
@@ -30,13 +32,13 @@ public class Player : Sprite
         if (Keyboard.GetState(0).IsKeyDown(Keys.D))
         {
             _transform._position = new Vector2(_transform._position.X + (float)gameTime.ElapsedGameTime.TotalMilliseconds * speed, _transform._position.Y);
-            _effects = SpriteEffects.None;
+            _effects = SpriteEffects.FlipHorizontally;
         }
         
         if (Keyboard.GetState(0).IsKeyDown(Keys.A))
         {
             _transform._position = new Vector2(_transform._position.X - (float)gameTime.ElapsedGameTime.TotalMilliseconds * speed, _transform._position.Y); 
-            _effects = SpriteEffects.FlipHorizontally;
+            _effects = SpriteEffects.None;
 
         }
         
