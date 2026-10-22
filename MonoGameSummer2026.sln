@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGameSummer2026", "MonoGameSummer2026\MonoGameSummer2026.csproj", "{69B20F6F-C0A4-4B25-876E-73FF13F13DAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69B20F6F-C0A4-4B25-876E-73FF13F13DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B20F6F-C0A4-4B25-876E-73FF13F13DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B20F6F-C0A4-4B25-876E-73FF13F13DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B20F6F-C0A4-4B25-876E-73FF13F13DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

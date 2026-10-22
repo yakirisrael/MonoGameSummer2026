@@ -1,0 +1,5 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/yakir/RiderProjects/MonoGameSummer2026/MonoGameSummer2026/Content/Fonts/OswaldRegular.spritefont","C:/Users/yakir/RiderProjects/MonoGameSummer2026/MonoGameSummer2026/Content/bin/Windows/Fonts/OswaldRegular.xnb","FontDescriptionProcessor","SpriteFontContent",2077,136217,0.1171276
+"C:/Users/yakir/RiderProjects/MonoGameSummer2026/MonoGameSummer2026/Content/Images/logo.png","C:/Users/yakir/RiderProjects/MonoGameSummer2026/MonoGameSummer2026/Content/bin/Windows/Images/logo.xnb","TextureProcessor","Texture2DContent",16734,311381,0.0991588
+"C:/Users/yakir/RiderProjects/MonoGameSummer2026/MonoGameSummer2026/Content/Images/pacman.png","C:/Users/yakir/RiderProjects/MonoGameSummer2026/MonoGameSummer2026/Content/bin/Windows/Images/pacman.xnb","TextureProcessor","Texture2DContent",14575,1048661,0.0489154
+"C:/Users/yakir/RiderProjects/MonoGameSummer2026/MonoGameSummer2026/Content/Images/pong-atlas.png","C:/Users/yakir/RiderProjects/MonoGameSummer2026/MonoGameSummer2026/Content/bin/Windows/Images/pong-atlas.xnb","TextureProcessor","Texture2DContent",4746,663637,0.0144741
