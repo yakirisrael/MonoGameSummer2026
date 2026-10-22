@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/yakir/RiderProjects/MonoGameSummer2026/MonoGameSummer2026/Content/Images/pacman.png</SourceFile>
-  <SourceTime>2026-10-18T18:02:13.1198844+03:00</SourceTime>
-  <DestFile>C:/Users/yakir/RiderProjects/MonoGameSummer2026/MonoGameSummer2026/Content/bin/Windows/Images/pacman.xnb</DestFile>
-  <DestTime>2026-10-18T18:02:30.4151778+03:00</DestTime>
+  <SourceFile>F:/MonoGameSummer2026/MonoGameSummer2026/Content/Images/pacman.png</SourceFile>
+  <SourceTime>2026-10-22T18:24:15.6144608+03:00</SourceTime>
+  <DestFile>F:/MonoGameSummer2026/MonoGameSummer2026/Content/bin/Windows/Images/pacman.xnb</DestFile>
+  <DestTime>2026-10-22T20:44:47.8483091+03:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2025-10-20T17:25:32+03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

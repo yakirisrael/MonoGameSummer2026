@@ -16,10 +16,13 @@ public class Game1 : Game
 
     private SpriteFont _fontOswald;
 
-    private Player _player = new();
+    private Player _player;
     private MouseText _mouseText = new();
     
     public static Vector2 ScreenSize = new Vector2(1920, 1080);
+    
+    
+    SpriteManager _spriteManager;
     public Game1()
     {
         _graphics = new GraphicsDeviceManager(this);
@@ -33,6 +36,11 @@ public class Game1 : Game
 
         ScreenSize.X = _graphics.PreferredBackBufferWidth;
         ScreenSize.Y = _graphics.PreferredBackBufferHeight;
+
+       // _spriteManager = new SpriteManager(Content);
+       
+       SpriteManager._content = Content;
+
     }
 
     protected override void Initialize()
@@ -40,6 +48,8 @@ public class Game1 : Game
         // TODO: Add your initialization logic here
 
         base.Initialize();
+        
+        _player = new Player();
     }
 
     protected override void LoadContent()
@@ -48,11 +58,10 @@ public class Game1 : Game
         
         _fontOswald = Content.Load<SpriteFont>("Fonts/OswaldRegular");
         
-        _logoTexture = Content.Load<Texture2D>("Images/logo");
-        _pongTexture = Content.Load<Texture2D>("Images/pong-atlas");
-        _pacmanTexture = Content.Load<Texture2D>("Images/pacman");
-
-        _player._texture = _pacmanTexture;
+        SpriteManager.AddSprite("pacman", "Images/pacman");
+        
+        SpriteManager.AddSprite("GreenBird", "Images/Birds/B4_s3", 4,4 );
+        SpriteManager.AddSprite("Duck1", "Images/Birds/Bird2 Duck_1", 4, 4);
 
         _mouseText._font = _fontOswald;
     }
@@ -62,7 +71,7 @@ public class Game1 : Game
         if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed ||
             Keyboard.GetState().IsKeyDown(Keys.Escape))
             Exit();
-
+        
         _player.Update(gameTime);
         _mouseText.Update(gameTime);
         
@@ -79,34 +88,6 @@ public class Game1 : Game
         _spriteBatch.Begin();
 
         _player.Draw(_spriteBatch);
-        _mouseText.Draw(_spriteBatch);
-        
-        /*_spriteBatch.Draw(_pongTexture,
-            Vector2.Zero, 
-            new Rectangle(
-                new Point(0, 0), 
-                new Point(
-                    (int)(_pongTexture.Width * 0.5f),
-                    _pongTexture.Height)
-            ),
-            Color.White,
-            MathHelper.ToRadians(0),
-            Vector2.Zero, 
-            new Vector2(1f, 1f), 
-            SpriteEffects.None,
-            0
-        );*/
-       
-        _spriteBatch.Draw(_logoTexture,
-                         ScreenSize * 0.5f,
-                         null,
-                         Color.White,
-                         MathHelper.ToRadians((float)gameTime.TotalGameTime.TotalMilliseconds),
-                         _logoTexture.Bounds.Center.ToVector2(),
-                         new Vector2(0.5f, 0.5f), 
-                         SpriteEffects.None,
-                         0
-                         );
         
         _spriteBatch.End();
 

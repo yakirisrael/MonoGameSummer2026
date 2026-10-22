@@ -4,12 +4,28 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/yakir/RiderProjects/MonoGameSummer2026/MonoGameSummer2026/Content/Fonts/OswaldRegular.spritefont</File>
-    <File>C:/Users/yakir/RiderProjects/MonoGameSummer2026/MonoGameSummer2026/Content/Images/logo.png</File>
-    <File>C:/Users/yakir/RiderProjects/MonoGameSummer2026/MonoGameSummer2026/Content/Images/pacman.png</File>
-    <File>C:/Users/yakir/RiderProjects/MonoGameSummer2026/MonoGameSummer2026/Content/Images/pong-atlas.png</File>
+    <File>F:/MonoGameSummer2026/MonoGameSummer2026/Content/Fonts/OswaldRegular.spritefont</File>
+    <File>F:/MonoGameSummer2026/MonoGameSummer2026/Content/Images/Birds/B4_s3.png</File>
+    <File>F:/MonoGameSummer2026/MonoGameSummer2026/Content/Images/Birds/B4_s5.png</File>
+    <File>F:/MonoGameSummer2026/MonoGameSummer2026/Content/Images/Birds/Bird1_1.png</File>
+    <File>F:/MonoGameSummer2026/MonoGameSummer2026/Content/Images/Birds/Bird1_3.png</File>
+    <File>F:/MonoGameSummer2026/MonoGameSummer2026/Content/Images/Birds/Bird2 Duck_1.png</File>
+    <File>F:/MonoGameSummer2026/MonoGameSummer2026/Content/Images/Birds/Bird2 Duck_3.png</File>
+    <File>F:/MonoGameSummer2026/MonoGameSummer2026/Content/Images/Birds/Bird3_Egret2.png</File>
+    <File>F:/MonoGameSummer2026/MonoGameSummer2026/Content/Images/Birds/Bird3_Egret4.png</File>
+    <File>F:/MonoGameSummer2026/MonoGameSummer2026/Content/Images/logo.png</File>
+    <File>F:/MonoGameSummer2026/MonoGameSummer2026/Content/Images/pacman.png</File>
+    <File>F:/MonoGameSummer2026/MonoGameSummer2026/Content/Images/pong-atlas.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

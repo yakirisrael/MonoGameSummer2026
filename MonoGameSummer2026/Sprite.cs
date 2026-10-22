@@ -11,22 +11,30 @@ public class Sprite : IDrawable, IUpdatable
 
     public Vector2 _origin { get; set; } = Vector2.Zero;
     public int sortingLayer { get; set; } = 0;
+    
+    public SpriteEffects _effects { get; set; } = SpriteEffects.None;
+    
+    public Rectangle _sourceRectangle { get; set; }
+
+    public Sprite(string SpriteName)
+    {
+        Spritesheet ss = SpriteManager.GetSprite(SpriteName);
+        _sourceRectangle = ss[0, 0];
+        _texture = ss.texture;
+    }
 
     public void Draw(SpriteBatch spriteBatch)
     {
+        if (_texture == null) return;
+        
         spriteBatch.Draw(_texture,
             _transform._position, 
-            new Rectangle(
-                new Point(0, 0), 
-                new Point(
-                    _texture.Width,
-                    _texture.Height)
-            ),
+            _sourceRectangle,
             _color,
             MathHelper.ToRadians(_transform._angle),
             _origin, 
             _transform._scale, 
-            SpriteEffects.None,
+            _effects,
             sortingLayer
         );
     }
