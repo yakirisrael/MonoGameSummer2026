@@ -43,10 +43,21 @@ public class Animation : Sprite
         isAnimating = true;
     }
 
+    public void ChangeAnimation(string newAnimation)
+    {
+        _spritesheet = SpriteManager.GetSprite(newAnimation);
+        _texture = _spritesheet.texture;
+        
+        Reset();
+    }
+
     void Reset()
     {
         x = y = 0;
         totalTime = 0;
+        isAnimating = false;
+        _sourceRectangle = _spritesheet[0, 0];
+
     }
 
     bool CanMoveToNextFrame(GameTime gameTime)

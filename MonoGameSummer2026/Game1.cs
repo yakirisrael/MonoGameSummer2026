@@ -28,7 +28,8 @@ public class Game1 : Game
         _graphics = new GraphicsDeviceManager(this);
         Content.RootDirectory = "Content";
         IsMouseVisible = true;
-        
+
+        _graphics.HardwareModeSwitch = false;
         _graphics.IsFullScreen = true;
         
         _graphics.PreferredBackBufferHeight = 1080;
@@ -70,7 +71,7 @@ public class Game1 : Game
 
     void Init()
     {
-        _player = new Player();
+        _player = SceneManager.Create<Player>();
         _player.PlayAnimation(true, 60);
     }
 
@@ -80,10 +81,7 @@ public class Game1 : Game
             Keyboard.GetState().IsKeyDown(Keys.Escape))
             Exit();
         
-        _player.Update(gameTime);
-        _mouseText.Update(gameTime);
-        
-        // TODO: Add your update logic here
+        SceneManager.Instance.Update(gameTime);
 
         base.Update(gameTime);
         
@@ -95,7 +93,7 @@ public class Game1 : Game
         
         _spriteBatch.Begin();
 
-        _player.Draw(_spriteBatch);
+        SceneManager.Instance.Draw(_spriteBatch);
         
         _spriteBatch.End();
 

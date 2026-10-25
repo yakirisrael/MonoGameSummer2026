@@ -52,6 +52,12 @@ public class Player : Animation
             _transform._position = new Vector2(_transform._position.X, _transform._position.Y + (float)gameTime.ElapsedGameTime.TotalMilliseconds * speed);
         }
 
+        if (Keyboard.GetState(0).IsKeyDown(Keys.P))
+        {
+            ChangeAnimation("GreenBird");
+            PlayAnimation(true, 30);
+        }
+
     }
 
 
