@@ -71,6 +71,7 @@ public class Game1 : Game
     void Init()
     {
         _player = new Player();
+        _player.PlayAnimation(true, 60);
     }
 
     protected override void Update(GameTime gameTime)

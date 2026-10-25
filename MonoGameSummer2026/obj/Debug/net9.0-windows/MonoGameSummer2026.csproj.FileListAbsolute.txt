@@ -65,3 +65,12 @@ F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images
 F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird2 Duck_3.xnb
 F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird3_Egret2.xnb
 F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird3_Egret4.xnb
+C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\B4_s3.xnb
+C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\B4_s5.xnb
+C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird1_1.xnb
+C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird1_3.xnb
+C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird2 Duck_1.xnb
+C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird2 Duck_3.xnb
+C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird3_Egret2.xnb
+C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird3_Egret4.xnb
+C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\obj\Debug\net9.0-windows\MonoGameSummer2026.sourcelink.json

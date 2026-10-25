@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>F:/MonoGameSummer2026/MonoGameSummer2026/Content/Images/Birds/Bird2 Duck_3.png</SourceFile>
-  <SourceTime>2026-09-22T02:49:38+03:00</SourceTime>
-  <DestFile>F:/MonoGameSummer2026/MonoGameSummer2026/Content/bin/Windows/Content/Images/Birds/Bird2 Duck_3.xnb</DestFile>
-  <DestTime>2026-10-22T20:50:21.5446856+03:00</DestTime>
+  <SourceFile>C:/Users/yakir/RiderProjects/MonoGameSummer2026/MonoGameSummer2026/Content/Images/Birds/Bird2 Duck_3.png</SourceFile>
+  <SourceTime>2026-10-25T15:14:51.5324905+02:00</SourceTime>
+  <DestFile>C:/Users/yakir/RiderProjects/MonoGameSummer2026/MonoGameSummer2026/Content/bin/Windows/Content/Images/Birds/Bird2 Duck_3.xnb</DestFile>
+  <DestTime>2026-10-25T15:15:22.01517+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2025-10-20T17:25:32+03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
