@@ -74,3 +74,4 @@ C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net
 C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird3_Egret2.xnb
 C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird3_Egret4.xnb
 C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\obj\Debug\net9.0-windows\MonoGameSummer2026.sourcelink.json
+C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\pixel.xnb

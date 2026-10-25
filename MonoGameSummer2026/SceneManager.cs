@@ -9,6 +9,7 @@ public class SceneManager : IUpdatable, IDrawable
     
     static List <IUpdatable> updatables = new();
     static List <IDrawable> _drawables = new();
+    public static List <Collider> colliders = new();
     
     private static SceneManager instance;
     
@@ -41,6 +42,10 @@ public class SceneManager : IUpdatable, IDrawable
         {
             _drawables.Add(obj);
         }
+        if (obj is Collider collider)
+        {
+            colliders.Add(collider);
+        }
     }
     
     public static void Remove<T>(T obj) where T : IDrawable
@@ -54,15 +59,28 @@ public class SceneManager : IUpdatable, IDrawable
         {
             _drawables.Remove(obj);
         }
+        
+        if (obj is Collider collider)
+        {
+            colliders.Remove(collider);
+        }
     }
 
 
     public void Update(GameTime gameTime)
     {
-        foreach (IUpdatable updatable in updatables)
+        // prefer for by index to make it by order
+        // this will prevent crash in case one of the objects
+        // gets deleted while in the loop
+        for (int i = 0; i < updatables.Count; i++)
+        {
+            updatables[i].Update(gameTime);
+        }
+        
+        /*foreach (IUpdatable updatable in updatables)
         {
             updatable.Update(gameTime);
-        }
+        }*/
     }
 
     public void Draw(SpriteBatch spriteBatch)

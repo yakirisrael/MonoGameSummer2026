@@ -9,6 +9,10 @@ public class Player : Animation
     public float speed = 0.5f;
     
     Vector2 originalScale = Vector2.One;
+
+    Vector2 prevPosition = Vector2.Zero;
+    public Collider collider { get; set; }
+
     public Player() : base("Duck1")
     {
         _transform._position =  new Vector2(100, 200);
@@ -21,14 +25,17 @@ public class Player : Animation
         
         _effects = SpriteEffects.FlipHorizontally;
         
-
+        collider = SceneManager.Create<Collider>();
+        collider.Parent = this;
+        
+        PlayAnimation(true, 60);
     }
 
 
     public override void Update(GameTime gameTime)
     {
-        base.Update(gameTime);
-
+        prevPosition = _transform._position;
+        
         if (Keyboard.GetState(0).IsKeyDown(Keys.D))
         {
             _transform._position = new Vector2(_transform._position.X + (float)gameTime.ElapsedGameTime.TotalMilliseconds * speed, _transform._position.Y);
@@ -57,8 +64,24 @@ public class Player : Animation
             ChangeAnimation("GreenBird");
             PlayAnimation(true, 30);
         }
-
+        
+        // must be at the end so colliders won't get stuck
+        base.Update(gameTime);
     }
 
-
+    public void HandleCollision(Collider colliding, Collider other)
+    {
+        _transform._position = prevPosition;
+    }
+    
+    public void HandleTrigger(Collider colliding, Collider other)
+    {
+        if (colliding.Parent is Enemy enemy)
+        {
+            if (enemy.collider != null)
+                SceneManager.Remove(enemy.collider);
+            
+            SceneManager.Remove(enemy);
+        }
+    }
 }

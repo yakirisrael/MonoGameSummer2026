@@ -13,8 +13,22 @@ public class Sprite : IDrawable, IUpdatable
     public int sortingLayer { get; set; } = 0;
     
     public SpriteEffects _effects { get; set; } = SpriteEffects.None;
+
+    private Rectangle source;
+    public Rectangle _sourceRectangle
+    {
+        get
+        {
+            return source;
+        }
+        set
+        {
+            source = value;
+            _rect = GetDestRectangle(source);
+        }
+    }
     
-    public Rectangle _sourceRectangle { get; set; }
+    public Rectangle _rect { get; set; }
     
     protected Spritesheet _spritesheet;
 
@@ -25,7 +39,7 @@ public class Sprite : IDrawable, IUpdatable
         _texture = _spritesheet.texture;
     }
 
-    public void Draw(SpriteBatch spriteBatch)
+    public virtual void Draw(SpriteBatch spriteBatch)
     {
         if (_texture == null) return;
         
@@ -44,5 +58,16 @@ public class Sprite : IDrawable, IUpdatable
     public virtual void Update(GameTime gameTime)
     {
         
+    }
+    
+    protected Rectangle GetDestRectangle(Rectangle rect)
+    {
+        int width = (int)(rect.Width * _transform._scale.X);
+        int height = (int)(rect.Height * _transform._scale.Y);
+
+        int pos_x = (int)(_transform._position.X - _origin.X * _transform._scale.X);
+        int pos_y  = (int)(_transform._position.Y - _origin.Y * _transform._scale.Y);
+
+        return new Rectangle(pos_x, pos_y, width, height);
     }
 }

@@ -15,8 +15,7 @@ public class Game1 : Game
     Texture2D _pacmanTexture;
 
     private SpriteFont _fontOswald;
-
-    private Player _player;
+    
     private MouseText _mouseText = new();
     
     public static Vector2 ScreenSize = new Vector2(1920, 1080);
@@ -49,8 +48,6 @@ public class Game1 : Game
         // TODO: Add your initialization logic here
 
         base.Initialize();
-        
-      
     }
 
     protected override void LoadContent()
@@ -58,21 +55,23 @@ public class Game1 : Game
         _spriteBatch = new SpriteBatch(GraphicsDevice);
         
         _fontOswald = Content.Load<SpriteFont>("Fonts/OswaldRegular");
+        _mouseText._font = _fontOswald;
         
-        SpriteManager.AddSprite("pacman", "Images/pacman");
-        
+        SpriteManager.AddSprite("Pixel", "Images/pixel");
         SpriteManager.AddSprite("GreenBird", "Images/Birds/B4_s3", 4,4 );
         SpriteManager.AddSprite("Duck1", "Images/Birds/Bird2 Duck_1", 4, 4);
-
-        _mouseText._font = _fontOswald;
         
         Init();
     }
 
     void Init()
     {
-        _player = SceneManager.Create<Player>();
-        _player.PlayAnimation(true, 60);
+        Player p = SceneManager.Create<Player>();
+        Enemy e = SceneManager.Create<Enemy>();
+
+        e.collider.onCollision += p.HandleCollision;
+        e.collider.onTrigger += p.HandleTrigger;
+
     }
 
     protected override void Update(GameTime gameTime)
