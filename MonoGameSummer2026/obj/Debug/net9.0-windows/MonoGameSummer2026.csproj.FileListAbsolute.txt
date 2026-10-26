@@ -1,35 +1,19 @@
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\logo.xnb
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\pong-atlas.xnb
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\MonoGameSummer2026.exe
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\MonoGameSummer2026.deps.json
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\MonoGameSummer2026.runtimeconfig.json
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\MonoGameSummer2026.dll
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\MonoGameSummer2026.pdb
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\MonoGame.Framework.dll
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\SharpDX.dll
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\SharpDX.Direct2D1.dll
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\SharpDX.Direct3D11.dll
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\SharpDX.DXGI.dll
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\SharpDX.MediaFoundation.dll
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\SharpDX.XAudio2.dll
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\SharpDX.XInput.dll
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\obj\Debug\net9.0-windows\mgcb.tool.restore
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\obj\Debug\net9.0-windows\MonoGameSummer2026.csproj.AssemblyReference.cache
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\obj\Debug\net9.0-windows\MonoGameSummer2026.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\obj\Debug\net9.0-windows\MonoGameSummer2026.AssemblyInfoInputs.cache
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\obj\Debug\net9.0-windows\MonoGameSummer2026.AssemblyInfo.cs
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\obj\Debug\net9.0-windows\MonoGameSummer2026.csproj.CoreCompileInputs.cache
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\obj\Debug\net9.0-windows\MonoGame.3D7AA634.Up2Date
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\obj\Debug\net9.0-windows\MonoGameSummer2026.dll
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\obj\Debug\net9.0-windows\refint\MonoGameSummer2026.dll
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\obj\Debug\net9.0-windows\MonoGameSummer2026.pdb
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\obj\Debug\net9.0-windows\MonoGameSummer2026.genruntimeconfig.cache
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\obj\Debug\net9.0-windows\ref\MonoGameSummer2026.dll
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Fonts\OswaldRegular.xnb
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\pacman.xnb
+F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Audio\bounce.xnb
+F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Audio\collect.xnb
+F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Audio\theme.wma
+F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Audio\theme.xnb
 F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Fonts\OswaldRegular.xnb
+F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\B4_s3.xnb
+F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\B4_s5.xnb
+F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird1_1.xnb
+F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird1_3.xnb
+F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird2 Duck_1.xnb
+F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird2 Duck_3.xnb
+F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird3_Egret2.xnb
+F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird3_Egret4.xnb
 F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\logo.xnb
 F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\pacman.xnb
+F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\pixel.xnb
 F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\pong-atlas.xnb
 F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\MonoGameSummer2026.exe
 F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\MonoGameSummer2026.deps.json
@@ -57,25 +41,3 @@ F:\MonoGameSummer2026\MonoGameSummer2026\obj\Debug\net9.0-windows\refint\MonoGam
 F:\MonoGameSummer2026\MonoGameSummer2026\obj\Debug\net9.0-windows\MonoGameSummer2026.pdb
 F:\MonoGameSummer2026\MonoGameSummer2026\obj\Debug\net9.0-windows\MonoGameSummer2026.genruntimeconfig.cache
 F:\MonoGameSummer2026\MonoGameSummer2026\obj\Debug\net9.0-windows\ref\MonoGameSummer2026.dll
-F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\B4_s3.xnb
-F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\B4_s5.xnb
-F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird1_1.xnb
-F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird1_3.xnb
-F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird2 Duck_1.xnb
-F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird2 Duck_3.xnb
-F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird3_Egret2.xnb
-F:\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird3_Egret4.xnb
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\B4_s3.xnb
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\B4_s5.xnb
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird1_1.xnb
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird1_3.xnb
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird2 Duck_1.xnb
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird2 Duck_3.xnb
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird3_Egret2.xnb
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\Birds\Bird3_Egret4.xnb
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\obj\Debug\net9.0-windows\MonoGameSummer2026.sourcelink.json
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Images\pixel.xnb
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Audio\bounce.xnb
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Audio\collect.xnb
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Audio\theme.wma
-C:\Users\yakir\RiderProjects\MonoGameSummer2026\MonoGameSummer2026\bin\Debug\net9.0-windows\Content\Audio\theme.xnb

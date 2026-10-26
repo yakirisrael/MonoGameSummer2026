@@ -4918,19 +4918,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yakir\\.nuget\\packages\\": {}
+    "C:\\Users\\Yakir\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yakir\\RiderProjects\\MonoGameSummer2026\\MonoGameSummer2026\\MonoGameSummer2026.csproj",
+      "projectUniqueName": "F:\\MonoGameSummer2026\\MonoGameSummer2026\\MonoGameSummer2026.csproj",
       "projectName": "MonoGameSummer2026",
-      "projectPath": "C:\\Users\\yakir\\RiderProjects\\MonoGameSummer2026\\MonoGameSummer2026\\MonoGameSummer2026.csproj",
-      "packagesPath": "C:\\Users\\yakir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yakir\\RiderProjects\\MonoGameSummer2026\\MonoGameSummer2026\\obj\\",
+      "projectPath": "F:\\MonoGameSummer2026\\MonoGameSummer2026\\MonoGameSummer2026.csproj",
+      "packagesPath": "C:\\Users\\Yakir\\.nuget\\packages\\",
+      "outputPath": "F:\\MonoGameSummer2026\\MonoGameSummer2026\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\yakir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Yakir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4957,7 +4962,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net9.0-windows": {
@@ -4987,19 +4992,19 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[9.0.17, 9.0.17]"
+            "version": "[9.0.20, 9.0.20]"
           },
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[9.0.17, 9.0.17]"
+            "version": "[9.0.20, 9.0.20]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[9.0.17, 9.0.17]"
+            "version": "[9.0.20, 9.0.20]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[9.0.17, 9.0.17]"
+            "version": "[9.0.20, 9.0.20]"
           }
         ],
         "frameworkReferences": {
@@ -5010,7 +5015,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Yakir\\.dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
