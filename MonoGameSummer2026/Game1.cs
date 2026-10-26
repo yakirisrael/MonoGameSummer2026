@@ -20,15 +20,17 @@ public class Game1 : Game
     
     public static Vector2 ScreenSize = new Vector2(1920, 1080);
     
+    SpriteManager _spriteManager = null;
+    AudioManager _audioManager = null;
     
-    SpriteManager _spriteManager;
     public Game1()
     {
         _graphics = new GraphicsDeviceManager(this);
         Content.RootDirectory = "Content";
         IsMouseVisible = true;
 
-        _graphics.HardwareModeSwitch = false;
+        // prevent window focus when exit full screen
+        _graphics.HardwareModeSwitch = false; 
         _graphics.IsFullScreen = true;
         
         _graphics.PreferredBackBufferHeight = 1080;
@@ -36,11 +38,6 @@ public class Game1 : Game
 
         ScreenSize.X = _graphics.PreferredBackBufferWidth;
         ScreenSize.Y = _graphics.PreferredBackBufferHeight;
-
-       // _spriteManager = new SpriteManager(Content);
-       
-       SpriteManager._content = Content;
-
     }
 
     protected override void Initialize()
@@ -52,15 +49,25 @@ public class Game1 : Game
 
     protected override void LoadContent()
     {
+        
+        _spriteManager = new SpriteManager(Content);
+        _audioManager = new AudioManager(Content); 
         _spriteBatch = new SpriteBatch(GraphicsDevice);
         
         _fontOswald = Content.Load<SpriteFont>("Fonts/OswaldRegular");
         _mouseText._font = _fontOswald;
-        
+
+        AudioManager.AddSong("Theme", "Audio/theme");
+        AudioManager.AddSoundEffect("Collect", "Audio/collect");
+        AudioManager.AddSoundEffect("Bounce", "Audio/bounce");
+       
         SpriteManager.AddSprite("Pixel", "Images/pixel");
-        SpriteManager.AddSprite("GreenBird", "Images/Birds/B4_s3", 4,4 );
         SpriteManager.AddSprite("Duck1", "Images/Birds/Bird2 Duck_1", 4, 4);
-        
+        SpriteManager.AddSprite("Duck2", "Images/Birds/Bird2 Duck_3", 4, 4);
+        SpriteManager.AddSprite("Egret1", "Images/Birds/Bird3_Egret2", 4, 4);
+        SpriteManager.AddSprite("Egret2", "Images/Birds/Bird3_Egret4", 4, 4);
+        SpriteManager.AddSprite("GreenBird", "Images/Birds/B4_s3", 4,4 );
+       
         Init();
     }
 
@@ -72,6 +79,7 @@ public class Game1 : Game
         e.collider.onCollision += p.HandleCollision;
         e.collider.onTrigger += p.HandleTrigger;
 
+        AudioManager.PlaySong("Theme", true, 0.3f);
     }
 
     protected override void Update(GameTime gameTime)

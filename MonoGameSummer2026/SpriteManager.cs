@@ -8,7 +8,7 @@ public class SpriteManager
 {
     static Dictionary<string, Spritesheet> _sprites = new();
 
-    public static ContentManager _content;
+    static ContentManager _content;
     
     public SpriteManager(ContentManager content)
     {

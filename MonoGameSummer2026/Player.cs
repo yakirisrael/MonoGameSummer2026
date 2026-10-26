@@ -72,10 +72,14 @@ public class Player : Animation
     public void HandleCollision(Collider colliding, Collider other)
     {
         _transform._position = prevPosition;
+        
+        AudioManager.PlaySoundEffect("Bounce");
     }
     
     public void HandleTrigger(Collider colliding, Collider other)
     {
+        AudioManager.PlaySoundEffect("Collect", false, 0.1f);
+        
         if (colliding.Parent is Enemy enemy)
         {
             if (enemy.collider != null)
